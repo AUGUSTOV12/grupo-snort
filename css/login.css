@@ -1,0 +1,186 @@
+/* color del fondo del login */
+body{
+  background-color: rgb(211, 222, 219); 
+  margin-top: 0%; 
+  margin: 0% 0%;
+}
+/* login encabezado */
+.login{
+  background-color: rgb(143, 214, 145);
+}
+.login img{
+  margin-left: 1.5%;
+}
+/* campo general */
+.contenedor{
+  float: left;
+  padding-top: 2px; 
+  display: inline-block;
+  -webkit-box-pack: center; 
+  margin-top: 10px; 
+  margin-left: 2%; 
+  width: 13.7%;
+  border-radius: 5px;
+}
+/* diseño de tamaños */
+.formulario{
+  position: relative; 
+  display: inline-grid;
+  font-family: arial; 
+  font-weight: bold; 
+  margin-left: 4%; 
+}
+/* diseño de texo email */
+.formulario label{
+  text-align: left; 
+  font-size: 13px; 
+  font-family: verdana;
+}
+/* diseño de input email y contraseña */
+.formulario .tercero{
+  border: 1px solid #BCBFC1;
+  padding: 5px;
+  border-radius: 3px;
+  width: 100%;
+  outline: none;
+  font-size: 12px;
+}
+.formulario .tercero:hover{
+  border: 1px solid rgb(0, 119, 179);
+}
+/* diseño del boton iniciar sesion */
+.formulario button{
+  border: none;
+  background-color: #04CD32;
+  border-radius: 5px;
+  cursor: pointer; 
+  width: 107%; 
+  padding: 5px; 
+  color: white; 
+  font-size: 15px;
+  font-weight: bold;
+  outline: none;
+}
+.formulario button:hover{
+  background-color: #1E86D1; 
+  box-shadow: 0px 1px 1px #231651;
+}
+/* diseño del boton guardar*/
+.guardar{
+  float: left; 
+  display: flex;
+  margin-left: -2%;
+}
+.guardar .guardar1{
+  font-size: 13px; 
+  font-family: tahoma;
+}
+.guardar input{
+  float: left; 
+  display: flex;
+}
+/* diseño de texo contraseña */
+.contraseña1{
+  text-align: center;
+  padding-bottom: 10px;
+}
+.contraseña1 a{
+  text-decoration: none;
+  font-size: 12px;
+  font-family: arial;
+  font-weight: bold;
+}
+/* diseño de registrarse */
+.registro{
+  float: left;
+  text-align: center; 
+  margin-left: 30%;
+  margin-top: 10px;
+}
+.registro p{
+  font-size: 16px;
+  font-family:verdana;
+  padding: 5px 20px;
+}
+/* diseño de registrarse */
+.registro h3{
+  font-size: 18px;
+  font-family: verdana; 
+}
+/* diseño de registrarse */
+.registro a:hover{
+  background-color: #FF3C00; 
+  box-shadow: 0px 1px 4px #231651;
+}
+.formulario2{
+  text-align: justify; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.registro2{
+  display: inline-flex; 
+  flex-flow: column;
+}
+.registro2 input{
+  border: 1px solid #D8D6D6;
+  outline: none;
+  padding: 5px;
+  width: 170%;
+  margin-left: 6%;
+  font-size: 12px;
+  border-radius: 5px;
+}
+.registro2 input:hover{
+  border: 1px solid #8ADB00;
+}
+.registro2 label{
+  margin-left: 6%;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  font-weight: bold;
+  font-family: arial;
+}
+.registro2 button{
+  cursor: pointer; 
+  background-color: #1A47AF ;
+  outline: none;
+  border: none;
+  padding: 5px;
+  border-radius: 4px; 
+  font-size: 16px; 
+  color: white;
+  margin-left: 6%;
+}
+.registro2 button:hover{
+  box-shadow: 0px 1px 1px #000000; 
+  background-color:#0077FF;
+  font-size: 16px; 
+  color: white;
+}
+
+@media screen and(max-width:  400px){
+  .formulario input{
+      border: none;
+      background-color: #04CD32;
+      border-radius: 5px;
+      cursor: pointer; 
+      width: 107%; 
+      padding: 5px; 
+      color: white; 
+      font-size: 15px;
+      font-weight: bold;
+      outline: none;
+
+  }
+}
+@media screen and(max-width: 600px){
+  .registro{ 
+    width:  100%;
+    background-color:   red;
+  }
+  .formulario2{ 
+    width:  100%;
+    background-color:   red;
+  }
+}

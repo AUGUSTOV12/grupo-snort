@@ -1,0 +1,470 @@
+body{
+  margin: inherit;
+  position: relative;
+  margin-bottom: -13px;
+ }
+  /* diseño de texto inversiones snort */
+.encabezado{
+  margin-top: -10px;
+  background-color: rgba(0, 26, 26, 80%);
+  padding-top: 16px;
+  padding-bottom: 1px;
+  position: relative;
+}
+.encabezado1{
+  margin-top: 4px;
+ }
+.encabezado1 img{
+  margin-left: 50px;
+}
+  /* diseños de barra de menus */
+.principal{
+  float: right;
+  margin-right: 20px;
+  margin-top: -40px;
+}
+/* diseño de menu */
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+/* diseño de menu */
+li {
+  float: right;
+  margin-top: 5px;
+  font-size: 14px;
+}
+/* diseño de menu */
+li .navlink {
+  font-family: arial;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition-duration: 1s;
+}
+/* diseño de menu */
+li .navlink:hover{
+  background-color: #cbc5b6;
+  border-radius: 3px;
+  font-weight: 800;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  color: #004d4d;
+}
+.sesion{
+  float: right;
+  font-family: verdana;
+  text-decoration: none;
+  padding: 5px;
+  margin-top: -0px;
+  font-size: 12px;
+  color: #ffffff;
+  border-radius: 3px;
+  margin-right: 20px;
+  font-size: 10px;
+}
+.title{
+  margin-top: -12px;
+  background-color: rgba(33,34,0,40%);
+}
+.title1{
+  float: right;
+  color: aliceblue;
+  font-size: 10px;
+  font-family: arial;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 5px;
+  transition: 1s;
+  cursor: pointer;
+}
+.title1:hover{
+  float: right;
+  background-color: rgb(18, 40, 28);
+  font-family: arial;
+  padding: 5px;
+  border-radius: 4px;
+}
+.text{
+  color: rgb(255, 255, 255);
+  font-family: arial;
+  padding-left: 20PX;
+  padding-right: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  uposition: relative;
+  animation-name: cesar;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes cesar{
+  from {margin-left: -8px;}
+  to {margin-left: 45%;}
+}
+.uran{
+  color: azure;
+}
+.cuerpo{
+  margin-top: -12px;
+}
+/*diseño del contenedor de las categorias*/
+.tab{
+  width: 15%;
+  box-sizing: border-box;
+}
+.tab .boton{
+  display: block;
+  color: #5b3c3c;
+  padding: 8px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+  box-sizing: border-box;
+}
+.tab .boton:hover {
+  background-color: rgba(212, 208, 210, 0.64);
+}
+.tab .boton.active {
+  background-color: rgb(162, 244, 177);
+}
+.boton:after{
+  content: '\0011';
+  color: #07e452;
+  font-weight: bold;
+  float: right;
+  margin-left: 1px;
+}
+/*contenedor de las subcategorias*/
+.btn-contenedor {
+  float: left;
+  display: none;
+  background-color: inherit;
+  width: 100%;
+  height: 75px;
+}
+.tipos{
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 2px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 15px;
+}
+.tipos::after{
+  content: "\1f53d";
+  float: right;
+}
+.tipos:hover{
+  background-color: #d6d0d0;
+  border-radius: 4px;
+}
+/*tipo ropa para hombres mujres y niños*/
+.tipocontent{
+  float: left;
+  margin-top: -100px;
+  margin-left: 100%;
+  padding: 0px 12px;
+  width: 513.6%;
+  border-left: none;
+}
+/*ropa para hombres mujres y niños*/
+.tipocontent h3{
+  margin-top: 20px;
+  font-family: arial;
+  margin-left: 7px;
+  font-size: 15px;
+  color: #330033;
+}
+.tipocontent p{
+  margin-left: 7px;
+  font-family: arial;
+  color: rgb(109, 56, 195);
+}
+.tipocontent img{
+  border-radius: 5px;
+  margin-left: 0px;
+  padding: 4px;
+}
+/*subcateria de electronicos*/
+.tipos1{
+  margin-top: -290px;
+}
+.gcard{
+  width: 100%;
+}
+.imcard{
+  width: 80%;
+  height: 150px;
+}
+.pcard{
+  float: left;
+  box-shadow: -1px 1px 14px rgba(0, 0, 0, 0.2);
+  width: 18%;
+  height: 100%;
+  text-align: center;
+  font-family: arial;
+  box-sizing: border-box;
+  margin: 10px;
+}
+.precio{
+  color: grey;
+  font-size: 22px;
+  box-sizing: border-box;
+}
+.pcard button {
+  border: none;
+  outline: 0;
+  padding: 6px 22px;
+  color: white;
+  background-color: #cca300;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.pcard button:hover {
+  background: rgb(67, 153, 26);
+}
+.pcard1{
+  float: left;
+  box-shadow: -1px 1px 14px rgba(0, 0, 0, 0.2);
+  width: 18%;
+  height: 100%;
+  text-align: center;
+  font-family: arial;
+  margin: 10px;
+}
+.pcard1 button {
+  border: none;
+  outline: 0;
+  padding: 6px 22px;
+  color: white;
+  background-color: #cca300;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.pcard1 button:hover {
+  background: rgb(67, 153, 26);
+}
+.pcard2{
+  float: left;
+  box-shadow: -1px 1px 14px rgba(0, 0, 0, 0.2);
+  width: 18%;
+  height: 100%;
+  text-align: center;
+  font-family: arial;
+  margin: 10px;
+}
+.pcard2 button {
+  border: none;
+  outline: 0;
+  padding: 6px 22px;
+  color: white;
+  background-color: #cca300;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.pcard2 button:hover {
+  background: rgb(67, 153, 26);
+}
+.pcard3{
+  float: left;
+  box-shadow: -1px 1px 14px rgba(1, 0, 0, 0.2);
+  width: 18%;
+  height: 100%;
+  text-align: center;
+  font-family: arial;
+  margin: 10px;
+}
+.pcard3 button {
+  border: none;
+  outline: 0;
+  padding: 6px 22px;
+  color: white;
+  background-color: #cca300;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+.pcard3 button:hover {
+  background: rgb(67, 153, 26);
+}
+.pcard4{
+  float: left;
+  box-shadow: -1px 1px 14px rgba(2, 0, 0, 0.2);
+  width: 18%;
+  height: 100%;
+  text-align: center;
+  font-family: arial;
+  margin: 10px;
+}
+.pcard4 button {
+  border: none;
+  outline: 0;
+  padding: 6px 22px;
+  color: white;
+  background-color: #cca300;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+.pcard4 button:hover {
+  background: rgb(67, 153, 26);
+}
+/*pie de pagina*/
+.footer{
+  height: 20%;
+  background: green;
+  margin-top: 870px;
+  position: relative;
+  padding-bottom: 5px;
+  padding-top: 70px;
+}
+.pie_pagina{
+  smargin-top: 870px;
+  dbackground-color: #2B4A6F;
+  c
+}
+/* AGREGAR FUENTES DE ICONOS DE REDES SOCIALES */
+.face{
+  font-family: arial;
+  background: #3B5998;
+  color: white;
+  padding: 10px 14px;
+  text-decoration: none;
+  margin-left: 50px;
+  border-radius: 50%;
+}
+.fa:hover{
+  background-color: #00b386;
+}
+.inst{
+  font-family: arial;
+  background: #FF1493;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+.copy{
+  margin-left: 10px;
+  font-family: arial;
+  font-size: 12px;
+  color: #fff;
+}
+.mbtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.mbtn:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 500px){
+  .tab{
+    width: 100%;
+  }
+  .tabcontent{
+    width: 100%;
+  }
+  .gcard{
+    width: 100%;
+    float: left;
+  }
+  .footer{
+  margin-top: 300%;
+  }
+}
+@media screen and (max-width: 500px){
+  .pcard{
+    width: 40%;
+    float: left;
+  }
+  .pcard1{
+    width: 40%;
+    float: left;
+  }
+  .pcard2{
+    width: 40%;
+  }
+  .pcard3{
+    width: 40%;
+    float: left;
+  }
+  .pcard4{
+    width: 40%;
+    float: left;
+  }
+}
+@media screen and (max-width: 500px ){
+  .text{
+    font-size: 10px;
+    position: relative;
+    animation-name: cesar;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes cesar{
+  from {margin-left: 0px;}
+  to {margin-left: 0px;}
+  }
+  .tipocontent{
+
+  }
+}
+@media screen and (max-width: 674px){
+  .text{
+    font-size: 10px;
+    position: relative;
+    animation-name: cesar;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes cesar{
+  from {margin-left: 0px;}
+  to {margin-left: 50px;}
+  }
+}
+@media screen and (max-width: 668px){
+ .tab, .boton{
+   width: 30%;
+ }
+}

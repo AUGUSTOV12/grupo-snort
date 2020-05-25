@@ -1,0 +1,119 @@
+body{
+  position: relative;
+  margin-bottom: -13px;
+}
+/* diseño de texto inversiones snort */
+.encabezado{
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -20px;
+  background-color: rgba(0, 26, 26, 80%);
+  padding-top: 1px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.encabezado1{
+  margin-top: 15px;
+  margin-left: -8px;
+  padding-bottom: -6px;
+}
+.encabezado1 img{
+  margin-left: 50px;
+}
+/* diseños de barra de menus */
+.principal{
+  margin-left: -8px;
+  margin-right: 20px;
+  margin-top: -50px;
+}
+/* diseño de menu */
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin-left: 230px;
+}
+/* diseño de menu */
+li {
+  float: right;
+  margin-top: 5px;
+  margin-bottom: px;
+  font-size: 14px;
+}
+/* diseño de menu */
+li a {
+  font-family: arial;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 800;
+  padding: 10px;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition-duration: 1s;
+}
+/* diseño de menu */
+li a:hover{
+  background-color: #cbc5b6;
+  border-radius: 3px;
+  font-weight: 800;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  color: #004d4d;
+}
+.sesion{
+  background: #006666;
+  padding: 10px;
+  margin-top: -10px;
+  font-size: 18px;
+  color: #ffffff;
+  border-radius: 3px;
+  margin-left: 20px;
+}
+.sesion:hover{
+  background: #008080;
+  padding: 10px;
+  font-size: 18px;
+  margin-top: -10px;
+  color: #ffffff;
+  border-radius: 3px;
+}
+.title{
+  margin-top: 10px;
+  margin-left: -8px;
+}
+.title1{
+  float: right;
+  color: red;
+  font-size: 15px;
+  font-family: arial;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  transition: 1s;
+}
+.title1:hover{
+  float: right;
+  background-color: #cfcfb0;
+  font-family: arial;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 15px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.text{color: #000000;
+  font-family: arial;
+  padding-left: 20PX;
+  padding-right: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+.pie_pagina{background-color: #2B4A6F;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

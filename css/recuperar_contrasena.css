@@ -1,0 +1,107 @@
+/* diseño del cuerpo de recuperar_contraseña */
+body{
+  background-color: #F4F4F4; 
+  margin: 0px 0px;
+}
+/* encabezado de recuperar_contraseña */
+.encabezado{
+  background-color: #023B7C; 
+  padding: 10px;
+}
+.encabezado a{
+  text-decoration: none; 
+  color: white; 
+  font-size: 15px;
+  font-family: arial; 
+  font-weight: bold; 
+  padding-left: 14px;
+}
+/* primer capa de diseño para el formulario recuperar contraseña */
+.primera_capa{
+  background-color: white; 
+  margin-left: 420px; 
+  margin-right: 420px;
+  padding-top: 30px;  
+  padding-bottom: 0px; 
+  margin-top: 30px; 
+  border-radius: 5px;
+  text-align: center; 
+  display: block;
+}
+.uno{ 
+  font-size: 21px; 
+  font-family: arial; 
+  font-weight: bold;
+}
+.dos{ 
+  font-size: 16px; 
+  font-family: arial; 
+  font-weight: 540;
+}
+.gmail{ 
+  font-size: 16px; 
+  font-family: arial; 
+  font-weight: lighter; 
+  border: 1px solid #E2E2E2;
+  text-align: justify; 
+  padding: 10px; width: 349px; 
+  border-radius: 4px;
+  outline: none;
+}
+.gmail:hover{
+  background-color: white; 
+  border: 1px solid #0099F2; 
+  box-shadow: none;
+  outline: none;
+}
+.boton{
+  background-color: #2D80B7; 
+  border-radius: 5px; 
+  border: 0px solid; padding: 10px;
+  width: 300px; 
+  font-size: 18px;  
+  font-weight: bold; 
+  color: white; 
+  font-family: arial;
+  outline: none; 
+  cursor: pointer;
+}
+.boton:hover{
+  box-shadow: 0px 1px 4px #231651; 
+  background-color: #4AA6E2;
+  border-radius: 5px;
+  outline: none;
+}
+.registrar{
+  background-color: #EBFFC9; 
+  margin-top: 110px; 
+  padding-top: 40px; 
+  padding-bottom: 40px;
+}
+.registrar label{
+  font-size: 15px; 
+  font-family: arial; 
+  margin-left: 25px; 
+  margin-right: 25px;
+  color: #231651; 
+  font-weight: 540;
+}
+.registrar button{
+  border-radius: 3px; 
+  border: 0px; 
+  padding: 10px; 
+  outline: none;
+  width: 240px; 
+  background-color: #52186D; 
+  cursor: pointer;
+}
+.registrar button:hover{
+  background-color: #6B00D6;
+}
+.registrar a{
+  text-decoration: none; 
+  padding: 70px; 
+  width: 260px; color: white;
+  font-size: 18px; 
+  font-weight: bold;
+}

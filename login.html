@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, maximum-scale=1.0"/> 
+    <title>Login</title>
+
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="icon" type="img" href="./imagenes/snort.icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href = "https://fonts.googleapis.com/css?family=Roboto" rel = "stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
+  </head>
+  <body>
+    <div class="login">
+      <a href="index.html"><img src="./imagenes/snortr.png"></a>
+    </div>
+    <div class="contenedor">
+      <div class="dosmas">
+        <form class="formulario" action="index.html" method="post">
+          <br>
+          <label for="">Tu email</label>
+          <input class="tercero " type="email" placeholder="Enter username" name="email" required value="">
+          <br>
+          <label for="">Tu contraseña</label>
+          <input class="tercero" type="password" placeholder="Enter password" name="password"required value="">
+          <br>
+          <button type="submit" name="button">
+            <span>Inicar sesión</span>
+          </button>
+          <br>
+          <span class="guardar">
+            <label class="guardar1">
+              <input type="checkbox" checked="checked" name="remember" >Guardar
+            </label>
+          </span>
+        </form>
+      </div>
+      <div class="contraseña1">
+        <br>
+        <a href="recuperar_contrasena.html">Olvidaste tu contraseña</a>
+      </div>
+    </div>
+    <div class="registro">
+      <p>¿Aún no tienes cuenta en Snort?</p>
+      <h3>Registrate aquí</h3>
+      <form class="formulario2" action="login.html" method="get">
+        <div class="registro2">
+          <label type="text">Nombre completo</label>
+          <input type="text" name="" placeholder="Name"  required value="">
+          <label type="text">Correo</label>
+          <input type="text" name=""placeholder="Email" required value="">
+          <label type="text">Usuario</label>
+          <input type="text" name=""placeholder="User" required value="">
+          <label type="text">Contraseña</label>
+          <input type="text" name=""placeholder="Password" required value="">
+          <label type="text">Repetir contraseña</label>
+          <input type="text" name=""placeholder="Repeat Password" required value="">
+          <br>
+          <button type="submit" name="button">Crear mi cuenta
+            <a href="login.html"></a>
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

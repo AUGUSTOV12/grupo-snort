@@ -1,0 +1,71 @@
+body.mas{margin-left: inherit; margin-right: inherit; margin-top: 35px;
+margin-bottom: inherit; font-family: arial,helvetica,sans-serif;
+}
+.Roboto{
+  font-family: 'verdana',sans-serif;
+}
+.a11 { color: red; font-family: "lucida console", monospace,serif;
+font-size: 20px; font-weight: bold; margin-left: 10px; margin-top: 25px;
+text-decoration: none;
+}
+div a:hover{
+  background-color: white; box-shadow: 1px 0px 3px;
+}
+.main-header {margin-top: 2px;margin-bottom: 3px;
+}
+.nav-link{font-size: 14px; color:white;
+}
+ul {list-style-type: none; overflow: hidden; background-color: #182C5B;
+  margin: 0px;
+}
+li {float: left; margin-top: 10px; margin-bottom: 10px;
+}
+li a {font-family: lucida,monospace; display: block; color: white;
+  text-align: center; padding: 10px; text-decoration: none; padding-top: 5px;
+  padding-bottom: 5px;
+}
+input.buscar{float: right;
+}
+li a:hover{background-color: LimeGreen;
+}
+.title{font-size:19px; margin-top: 0;
+}
+.text-center{text-align:center;
+}
+.red-text{color: MediumBlue; font-family: georgia,serif; background-color: #FFF0F5;
+padding-left: 10PX; padding-right: 10px; padding-top: 5px; padding-bottom: 5px;
+}
+/* Copyright */
+p.centro{text-align: center; color: white; font-weight: 600; font-size: 12px;
+  font-family: arial;
+}
+/* AGREGAR FUENTES DE ICONOS DE REDES SOCIALES */
+.redes{padding: 16px; width: 22px; position:  relative; padding-top: 5px;
+  text-align: center; display: block; float:left; border-radius: 30px;
+  margin: 30px 1130px; background:LimeGreen; padding-bottom: 5px;
+}
+.redes:hover{box-shadow: 0px 2px 4px;
+}
+.redes a{ padding: 10px; font-size: 20px; width: 20px; position:  relative;
+  text-align: center; display: block; float:left; text-decoration: none;
+  border-radius: 50px; margin: 5px -9px
+}
+.redes a:hover {background-color: #000;
+}
+.face{background: #3B5998; color: white;
+}
+.inst{background:	#FF1493; color: white; margin-top: 8px;
+}
+.content{margin-left: 75px; font-size: 12px;
+}
+/* Iniciar sesion */
+.login{padding: 0px; margin-left: 50px; border: 0px solid; border-radius: 3px;
+}
+.login a{background-color:#10BA6D; font-family: arial sans-serif; padding: 9px;
+ font-size: 16px; font-weight: bold; border-radius: 3px; padding-top: 5px;
+ padding-bottom: 5px;
+}
+.espacio{margin-left: 100px;
+}
+.pie_pagina{background-color: #2B4A6F; padding-top: 10em; padding-bottom: 2em;
+}
